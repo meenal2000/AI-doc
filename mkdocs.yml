@@ -1,0 +1,69 @@
+site_name: Heights for AI
+site_url: https://hrushi11.github.io/Heights-for-AI/
+
+repo_url: https://github.com/Hrushi11/Heights-for-AI
+repo_name: Hrushi11/Heights-for-AI
+
+theme:
+  name: material
+  logo: https://i.ibb.co/Y0FgvXp/Hrushi.jpg
+  favicon: https://i.ibb.co/23qmK72/android-chrome-192x192.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+  icon:
+    repo: fontawesome/brands/git-alt
+  palette:
+    accent: pink
+    primary: black
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - mkdocs-jupyter
+  - search
+
+edit_uri: ""
+
+nav:
+  - Home: "index.md"
+
+  - Neural Networks:
+      - "DeepLearning": "deeplearning.md"
+      - "Programming Neural Networks": "Programming_Neural_Networks.ipynb"
+      - "Neural Network With TensorFlow": "Neural_Network_With_TensorFlow.ipynb"
+      - "Regression With TensorFlow": "Regression_model_with_tensorflow.ipynb"
+      - "Multi-Class CNN (Fruits 262)": "Multi-Class CNN (Fruits 262).ipynb"
+      - "Vertebrate Detection": "Vertebrate_Detection.ipynb"
+      - "Flowers Recognition": "Flowers_Recognition.ipynb"
+      - "Butterfly Recognition": "Butterfly_Recognition.ipynb"
+      - "Gender Recognition": "Gender_Recognition.ipynb"
+      - "Bird Species Recognition": "Bird_Species_Recognition.ipynb"
+      - "Devnagri Character Recognition": "Devnagri_Character_Recognition.ipynb"
+
+  - Regression with Scikit-Learn:
+      - "Telecom Users Churn Machine Learning Model Workflow": "Telecom-Users-Churn-ML-model.ipynb"
+      - "Water Quality ": "Water_Quality.ipynb"
+
+  - Python Projects:
+      - "Rock Paper Scissors Game In Python": "rps-game.md"
+
+  - TensorFlow GPU Problem: "Tensorflow-GPU-Problem.ipynb"
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Hrushi_IK
+    - icon: fontawesome/brands/github
+      link: https://github.com/Hrushi11
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/hrushikesh-kachgunde-73a90b186/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<hrushiskachgunde@gmail.com>
+
+copyright: Copyright &copy; 2021 Hrushikesh Kachgunde
